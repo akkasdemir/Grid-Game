@@ -1,12 +1,19 @@
 package com.ekip.gridgame;
 
 import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.view.SurfaceHolder;
 
-/** Ana oyun class'ı */
+/**
+ * 
+ * @author Luna
+ *
+ */
 public class GridGame {
 	Context context;
 	SurfaceHolder holder;
+	Canvas canvas;
 
 	/**
 	 * GridGame constructor'u, context ve holder alıyor
@@ -20,7 +27,11 @@ public class GridGame {
 	 * Oyun'un başlama komutu, sadece bir kez çağırılacak
 	 */
 	public void onStart(){
-		
+		// deneme amaçlı çizim
+		canvas=holder.lockCanvas();
+		canvas.drawRGB(255, 160, 80);
+		canvas.drawRect(20, 30, 40, 50, new Paint());
+		holder.unlockCanvasAndPost(canvas);
 	}
 
 	/**

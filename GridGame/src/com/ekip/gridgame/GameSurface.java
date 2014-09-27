@@ -1,6 +1,5 @@
 package com.ekip.gridgame;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
@@ -8,7 +7,11 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceHolder.Callback;
 import android.view.SurfaceView;
 
-@SuppressLint("ClickableViewAccessibility") public class GameSurface extends SurfaceView {
+/**
+ * @author Luna
+ *
+ */
+public class GameSurface extends SurfaceView {
 
 	/** MainActivity'i bunda tutuyoruz */
 	Context context;
