@@ -3,6 +3,7 @@
  * Javadoc'u öğrenin, yazdığınız "her fonksiyona" documentation yazın
  * Documentation yazmayanı oyarım
  * Bi de branch yapmayın, tek koldan yürüyelim
+ * Commit yapmadan önce başkası uğraşıyo mu diye check edecek bir sistem bulmamız lazım
  */
 package com.ekip.gridgame;
 
