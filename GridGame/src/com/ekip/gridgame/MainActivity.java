@@ -4,6 +4,9 @@
  * Documentation yazmayanı oyarım
  * Bi de branch yapmayın, tek koldan yürüyelim
  * Commit yapmadan önce başkası uğraşıyo mu diye check edecek bir sistem bulmamız lazım
+ * 
+ * Bu arada commentlere isimleri de ekleyebiliriz kimin yazdığı belli olsun diye.
+ * Mesela commentların sonuna [akkas] gibi bişey eklenebilir.[akkas]
  */
 package com.ekip.gridgame;
 

@@ -1,4 +1,4 @@
-/*Deneme bir iki öhüm öhümmm.....*/
+/** Deneme bir iki öhüm öhümmm.....*/
 package com.ekip.gridgame;
 
 import android.content.Context;
